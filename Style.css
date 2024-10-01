@@ -7,13 +7,14 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5%;
+    padding: 1%;
     background-color: #086c9c;
-    margin: 5%;
+    margin: 2%;
 }
 
 .buttons div{
     text-align: center;
+    white-space: nowrap;
 }
 
 .navbar{
