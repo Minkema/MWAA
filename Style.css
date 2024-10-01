@@ -8,8 +8,20 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 1%;
-    background-color: #086c9c;
+    background-color: #ffffff;
+    height: 80vh;
+}
+
+.buttons a{
+    float: left;
     margin: 2%;
+    background-color: #154273;
+    width: 30%;
+    height: 80%;
+}
+
+.buttons :hover{
+    background-color: #1f60a6;
 }
 
 .buttons div{
@@ -28,19 +40,17 @@ body{
 
 #AanmeldingsFormulier{
         margin: 10%;
-        background-color: #086c9c;
         width: 33%;
 }
 
 #Terugvraagformulier{
     margin: 10%;
-    background-color: #086c9c;
     width: 33%;
+    height: 50%;
 }
 
 #Vergunningaanvraag{
     margin: 10%;
-    background-color: #086c9c;
     width: 34%;
 }
 
