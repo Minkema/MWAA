@@ -3,6 +3,19 @@ body{
     margin: 0%;
 }
 
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    background-color: #086c9c;
+    margin: 5%;
+}
+
+.buttons div{
+    text-align: center;
+}
+
 .navbar{
     background-color: #086c9c;
     padding-top: 0.5%;
@@ -13,11 +26,24 @@ body{
 }
 
 #AanmeldingsFormulier{
-    padding: 10%;
-    background-color: #086c9c;
+        margin: 10%;
+        background-color: #086c9c;
+        width: 33%;
 }
 
-#AanmeldingsFormulier, a{
+#Terugvraagformulier{
+    margin: 10%;
+    background-color: #086c9c;
+    width: 33%;
+}
+
+#Vergunningaanvraag{
+    margin: 10%;
+    background-color: #086c9c;
+    width: 34%;
+}
+
+a{
     text-decoration: none;
     color: white;
 }
