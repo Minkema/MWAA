@@ -51,8 +51,14 @@ body {
 
 .navbar {
     background-color: #086c9c;
-    padding: 0.5% 1% 0.5% 5%;
+    padding: 0.5% 1% 0.5% 1%;
     color: white;
+    display: flex;
+}
+
+.navbar h1{
+    padding-top: 1%;
+    padding-left: 1.5%;
 }
 
 #AanmeldingsFormulier, #Vergunningaanvraag, #Terugvraagformulier {
