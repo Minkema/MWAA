@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    margin: 0%;
+}
+
+.navbar{
+    background-color: #086c9c;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 1%;
+    color: white;
+}
+
+#AanmeldingsFormulier{
+    padding: 10%;
+    background-color: #086c9c;
+}
+
+#AanmeldingsFormulier, a{
+    text-decoration: none;
+    color: white;
+}
