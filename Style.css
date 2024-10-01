@@ -58,3 +58,10 @@ body {
 #AanmeldingsFormulier, #Vergunningaanvraag, #Terugvraagformulier {
     width: 100%; /* Zorgt ervoor dat de knoppen de beschikbare ruimte gebruiken */
 }
+
+html, body{
+    margin: 0%;
+    height: 90%;
+    padding-bottom: 5%;
+    background-color: #086c9c;
+}
