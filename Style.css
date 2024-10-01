@@ -1,9 +1,9 @@
-body{
+body {
     background-color: white;
-    margin: 0%;
+    margin: 0;
 }
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,49 +12,49 @@ body{
     height: 80vh;
 }
 
-.buttons a{
-    float: left;
-    margin: 2%;
+.buttons a {
+    display: flex; /* Flexbox gebruiken om de inhoud te positioneren */
+    flex-direction: column; /* Zorgt ervoor dat de tekst in een kolom wordt weergegeven */
+    justify-content: flex-start; /* Zorgt ervoor dat de inhoud bovenaan begint */
+    align-items: center; /* Centreert de inhoud horizontaal, behalve de <p> */
     background-color: #154273;
-    width: 30%;
-    height: 80%;
+    width: 30%; /* De breedte van de knoppen */
+    height: 80%; /* Stelt een vaste hoogte in voor consistentie */
+    margin: 2%;
+    text-decoration: none; /* Geen onderstreping van links */
+    color: white;
+    padding: 1%;
 }
 
-.buttons :hover{
+.buttons a:hover {
     background-color: #1f60a6;
 }
 
-.buttons div{
-    text-align: center;
-    white-space: nowrap;
+.buttons div {
+    width: 100%; /* Zorgt ervoor dat de <div> de volledige breedte gebruikt */
+    white-space: normal; /* Zorgt ervoor dat tekst automatisch naar de volgende regel gaat */
+    word-wrap: break-word; /* Breekt woorden als ze te lang zijn voor de breedte */
 }
 
-.navbar{
+.buttons h1 {
+    text-align: center; /* Zorg ervoor dat de titel gecentreerd blijft */
+    margin: 10px 0; /* Optionele marge voor de titel */
+}
+
+.buttons p {
+    margin: 0; /* Verwijder onnodige marges */
+    padding-left: 10px; /* Kleine ruimte tussen de tekst en de linkerkant */
+    font-size: 120%;
+    text-align: left; /* Lijn de tekst in het <p> naar links uit */
+    width: 100%; /* Zorg ervoor dat de <p> de volledige breedte van het blokje gebruikt */
+}
+
+.navbar {
     background-color: #086c9c;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    padding-left: 5%;
-    padding-right: 1%;
+    padding: 0.5% 1% 0.5% 5%;
     color: white;
 }
 
-#AanmeldingsFormulier{
-        margin: 10%;
-        width: 33%;
-}
-
-#Terugvraagformulier{
-    margin: 10%;
-    width: 33%;
-    height: 50%;
-}
-
-#Vergunningaanvraag{
-    margin: 10%;
-    width: 34%;
-}
-
-a{
-    text-decoration: none;
-    color: white;
+#AanmeldingsFormulier, #Vergunningaanvraag, #Terugvraagformulier {
+    width: 100%; /* Zorgt ervoor dat de knoppen de beschikbare ruimte gebruiken */
 }
