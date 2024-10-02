@@ -9,7 +9,7 @@ body {
     align-items: center;
     padding: 1%;
     background-color: #ffffff;
-    height: 80vh;
+    height: 80%;
 }
 
 .buttons a {
@@ -44,7 +44,7 @@ body {
 .buttons p {
     margin: 0; /* Verwijder onnodige marges */
     padding-left: 10px; /* Kleine ruimte tussen de tekst en de linkerkant */
-    font-size: 120%;
+    font-size: 1em;
     text-align: left; /* Lijn de tekst in het <p> naar links uit */
     width: 100%; /* Zorg ervoor dat de <p> de volledige breedte van het blokje gebruikt */
 }
